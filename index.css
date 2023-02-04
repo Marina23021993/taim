@@ -1,0 +1,172 @@
+
+    body{
+        background-color:rgb(75, 70, 70);
+        position: relative;
+    }
+    .container{
+         margin: 0;
+        }
+        .button_open{
+            margin-top: 50%;
+            text-align:center; 
+        }
+        
+        .button a{
+       
+        text-decoration: none;
+        color: rgb(14, 44, 83);
+        background: #fff;
+        padding: 20px;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 30px;
+    }
+    .btn_start,.btn_stop{
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 40px;
+        border: none;
+    }
+    .timer{
+        color:#fff;
+        text-align: center;
+        display: flex;
+        margin: 0 -15px;
+      justify-content: center;
+        margin-top: 100px;
+        }
+    .timer_block{
+       margin: 0 15px;
+        margin-top: 80px;
+    }
+    .button_timer{
+        color:#fff;
+        text-align: center;
+        display: flex;
+        margin: 0 15px;
+        left: 40px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .button_timer button{
+        margin: 0 15px;
+        }
+    .hour,.minute,.second{
+        font-size: 20px;
+        background: #fff;
+        color: black;
+        border-radius: 30px;
+    }
+    .hour{
+        padding:0 32px;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .menu_item{
+        font-size: 15px;
+      margin-left: 110px;
+      padding-left: 10px;
+      padding-top: 10px;
+        padding-bottom: 20px;
+       border-radius: 20px;
+       margin-top: 10px;
+       border: none;
+    }
+    .menu_btn {
+        background: #fff;
+        position: relative;
+        margin-top: 10px;
+        border-radius: 20px;
+        padding: 10px;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .menu_list{
+        color: #fff;
+        float: right;
+        margin-top: -90px;
+        
+    }
+    .menu{
+        display:flex;
+        position: absolute;
+        flex-direction: column;
+     max-height: 0;
+     overflow: hidden;
+    }
+    .button{
+        margin-top: 50px;
+    }
+    .menu a{
+        text-decoration: none;
+        color:#fff;
+    }
+    .img_body{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .img_body_img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 300px;
+       
+    
+    }
+    .active{
+        text-align: center;
+      
+       display: block;
+    }
+    .hidden{
+        display: none;
+    }
+    .one_active{
+        text-align: center;
+        width: 200px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+       display: none;
+    }
+    .two_active{
+        text-align: center;
+        width: 200px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    .three_active{
+        text-align: center;
+        width: 200px;
+        height: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    .timer{
+        font-size: 60px;
+        text-decoration: line;
+        color: #fff;
+       margin-left: 85px;
+       margin-right: 85px;
+      border-radius: 50px;
+     vertical-align: auto;
+   
+    left: 50%;
+    right: 50%;
+    }
+   .btn_start{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
